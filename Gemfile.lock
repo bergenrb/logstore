@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     logstore (0.0.1)
-      rails (~> 3.2.12)
+      rails (~> 3.2.11)
 
 GEM
   remote: http://rubygems.org/
