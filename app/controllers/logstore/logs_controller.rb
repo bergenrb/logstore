@@ -5,7 +5,7 @@ module Logstore
     # GET /logs
     # GET /logs.json
     def index
-      @logs = Log.all
+      @logs = Log.all(limit: 150, order: 'created_at DESC')
   
       respond_to do |format|
         format.html # index.html.erb
